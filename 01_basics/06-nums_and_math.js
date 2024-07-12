@@ -15,7 +15,7 @@ const otheNumber_3= 123.8996
 // console.log(otheNumber_3.toPrecision(4))//123.9
 const hundards=1000000
 // console.log(hundards.toLocaleString());
-//1,000,000 give the american standard value in dollar$
+//1,000,000 give the US standard value in dollar$
 // console.log(hundards.toLocaleString('en-IN'));
 //10,00,000 give the hundard value in indian standard
 
