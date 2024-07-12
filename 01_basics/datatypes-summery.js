@@ -22,13 +22,33 @@ let obj={
 console.log(obj)
  
 
-const Myfunction= function(){
-    console.log("hello world");
+// const Myfunction= function(){
+//     console.log("hello world");
+// }
+// Myfunction();
+// console.log(typeof id);//symbol
+// console.log(typeof outsideTemprature );//object
+// console.log(typeof gaurav);//boolean
+// console.log(typeof outsideTemprature);//object (null)
+// console.log(typeof Myfunction);//function
+// console.log(typeof obj);//object
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive),Heap memory(Non-Primitive)
+// Primitive data types are stored in the stack memory 
+//and the reference data types are stored in the heap memory
+let myYoutubeName="gssstydio.com"
+let anotherName=myYoutubeName
+anotherName="GKBvines"
+console.log(myYoutubeName);//gssstydio.com
+console.log(anotherName); //GKBvines
+
+let userOne={
+    email:"dadf@google.com",
+    upi:"user@byl"
 }
-Myfunction();
-console.log(typeof id);//symbol
-console.log(typeof outsideTemprature );//object
-console.log(typeof gaurav);//boolean
-console.log(typeof outsideTemprature);//object (null)
-console.log(typeof Myfunction);//function
-console.log(typeof obj);//object
+let userTwo=userOne;
+userTwo.email="sahil@google.com"
+ console.log(userOne.email)//sahil@google.com
+ console.log(userTwo.email)//sahil@google.com
