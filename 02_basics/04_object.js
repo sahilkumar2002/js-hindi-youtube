@@ -38,12 +38,44 @@ const obj2={
 // // { '1': 'a', '2': 'c', '3': 'd' }
 
 
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser))
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser))
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderuser.hasOwnProperty('isLoggedIn'));
 //proeperty exist or not
 
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"sahil"
+}
+// course.courseInstructor
+const {courseInstructor: instructor}=course
+console.log(instructor);
+// console.log(courseInstructor);
 
+
+
+
+
+//desturcturing
+// const navbar=({company})=>{
+// }
+// navbar(company="sahil")
+
+
+
+// json se api call krna
+// {
+//     "name":"sahil",
+//     "coursename":"js hindi youtube",
+//     "price":"free"
+// }
+
+// [
+//     {},
+//       {},
+//     {}
+// ]
